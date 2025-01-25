@@ -1,0 +1,32 @@
+Model-wise Observations:
+
+M1 (Logistic Regression):
+Sampling1 yields the best accuracy (92.13%), suggesting that Random Oversampling provides optimal balance for this model.
+
+M2 (Random Forest):
+Sampling2 delivers the highest accuracy (100%), showcasing the strength of Stratified Sampling for ensemble-based methods.
+
+M3 (SVM):
+Sampling4 achieves the best performance (75.65%), demonstrating that Systematic Sampling handles imbalanced data effectively for this model.
+
+M4 (KNN):
+Sampling4 stands out with an accuracy of 96.52%, highlighting the importance of Systematic Sampling for distance-based models.
+
+M5 (Neural Network):
+Sampling5 achieves perfect accuracy (100%), indicating that Oversampling complements neural networks in learning from balanced datasets.
+
+
+
+Sampling Techniques:
+
+Sampling1 (Random Oversampling):
+Proves effective for M1 and M4, demonstrating its utility in improving performance for simpler models.
+
+Sampling2 (Stratified Sampling):
+Excels in M2, confirming its reliability for ensemble-based approaches like Random Forest.
+
+Sampling4 (Systematic Sampling):
+Particularly beneficial for M3 and M4, showing its effectiveness for distance-sensitive models like SVM and KNN.
+
+Sampling5 (Oversampling):
+The strongest for M5, showing its ability to enhance performance in complex, nonlinear models like Neural Networks.
